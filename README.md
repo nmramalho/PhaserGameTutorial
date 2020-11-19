@@ -5,12 +5,12 @@
 * Servidor web local
 ** Neste projeto foi utilizado o servidor XAMPP disponível em http://www.apachefriends.org/en/xampp.html
 * IDE 
-** Programa para editar o código da aplicação (JavaScript ).
-** Alguns Editores:
-*** Visual Studio Code - https://code.visualstudio.com/
-*** Atom - https://atom.io/
-*** Brackets - http://brackets.io/
-*** Sublime Text - https://www.sublimetext.com/
+* Programa para editar o código da aplicação (JavaScript ).
+    ** Alguns Editores:
+        *** Visual Studio Code - https://code.visualstudio.com/
+        *** Atom - https://atom.io/
+        *** Brackets - http://brackets.io/
+        *** Sublime Text - https://www.sublimetext.com/
 
 * Phaser
 
