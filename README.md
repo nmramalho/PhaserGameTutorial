@@ -13,7 +13,7 @@
         * **Sublime Text** - https://www.sublimetext.com/
 
 * **Phaser**
-    ** https://phaser.io/download/stable (**min.js**)
+    * https://phaser.io/download/stable (**min.js**)
 
 # Parte 1
 Brevemente será colocada aqui informação.
