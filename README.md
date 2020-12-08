@@ -17,6 +17,8 @@
 
 # Parte 1 - Introdução
 
+Documentação de apoio: https://550nmr.com/2020/12/criar-um-jogo-2d-com-phaser-parte-1-introducao 
+
 * **Phaser**
 * **Requisitos**
 * **Preparar o ambiente de desenvolvimento**
