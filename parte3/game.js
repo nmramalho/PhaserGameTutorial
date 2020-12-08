@@ -1,5 +1,6 @@
 var config = {
     type: Phaser.AUTO,
+    parent: 'game',
     width: 800,
     height: 600,
     scene: {
@@ -8,6 +9,9 @@ var config = {
         update: update
     }
 };
+
+// Criar o objeto game com as propriedades do jogo
+var game = new Phaser.Game(config);
 
 var scenarySpeed = 1;   // variavel para definir a velocidade do senário
 

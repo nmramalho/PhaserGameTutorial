@@ -1,15 +1,22 @@
 <!doctype html> 
 <html > 
-<head> 
+<head>
+    <meta charset="UTF-8"> 
     <title>O meu jogo</title>
     <script src="phaser/phaser.min.js"></script>
     <script src="game.js"></script>
-</head>
+ </head>
+
+<style>
+#game {
+    margin: 10px auto;
+    padding: 10px;
+    width: 800px;
+    height: 600px;
+    border: 10px solid red;
+}
+</style>
 <body>
-
-    <script>
-        var game = new Phaser.Game(config);
-    </script>    
-
+    <div id="game"></div>
 </body>
 </html>

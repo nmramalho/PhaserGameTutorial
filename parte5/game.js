@@ -1,5 +1,6 @@
 var config = {
     type: Phaser.AUTO,
+    parent: "game",
     width: 800,
     height: 600,
     scene: {
@@ -14,6 +15,9 @@ var config = {
         }
     },
 };
+
+// Criar o objeto game com as propriedades do jogo
+var game = new Phaser.Game(config);
 
 var scenarySpeed = 1;   // variavel para definir a velocidade do senário
 var shipSpeed = 200;    // variável para definir a velocidade da nave
@@ -79,7 +83,7 @@ function update ()
 function moveScenery (clouds, mountains, ground, speed)
 {
     //deslocamento horizontal dos elementos
-    ground.tilePositionX += speed *2 ;   
+    ground.tilePositionX += speed * 4;   
     mountains.tilePositionX += speed / 10; 
     clouds.tilePositionX += speed / 4;
 }
@@ -90,43 +94,23 @@ function moveScenery (clouds, mountains, ground, speed)
  */
 function moveShip(cursorKeys, ship)
 {
+  ship.setVelocity(0, 0);
+
   if (cursorKeys.left.isDown)
-  {  
-      if (cursorKeys.down.isDown){
-        ship.setVelocity(-shipSpeed,shipSpeed);
-      }
-      if (cursorKeys.up.isDown){
-        ship.setVelocity(-shipSpeed,-shipSpeed);
-      }
-
-      ship.setVelocityX(-shipSpeed);
+  {
+    ship.setVelocityX(-shipSpeed);
   }
-
   else if (cursorKeys.right.isDown)
-  {        
-      if (cursorKeys.down.isDown){
-        ship.setVelocity(shipSpeed,shipSpeed);
-      }
-      if (cursorKeys.up.isDown){
-        ship.setVelocity(shipSpeed,-shipSpeed);
-      }
-      
-      ship.setVelocityX(shipSpeed);
+  {
+    ship.setVelocityX(shipSpeed);
   }
   
-  else if(cursorKeys.up.isDown)
+  if(cursorKeys.up.isDown)
   {
     ship.setVelocityY(-shipSpeed);
   }
-  
   else if(cursorKeys.down.isDown)
   {
     ship.setVelocityY(shipSpeed);
   }
-  
-  else{
-    ship.setVelocity(0, 0);
-  }
-
-
 }

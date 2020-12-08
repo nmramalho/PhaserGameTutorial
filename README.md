@@ -4,7 +4,7 @@
 # Requisitos
 * **Servidor web local**
     * Neste projeto foi utilizado o servidor XAMPP disponível em http://www.apachefriends.org/en/xampp.html
-* **IDE** 
+* **Editor de código** 
     * Programa para editar o código da aplicação (JavaScript ).
     * Alguns Editores:
         * **Visual Studio Code** - https://code.visualstudio.com/
