@@ -15,17 +15,22 @@
 * **Phaser**
     * https://phaser.io/download/stable (**min.js**)
 
-# Parte 1
-Brevemente será colocada aqui informação.
+# Parte 1 - Introdução
+
+* **Phaser**
+* **Requisitos**
+* **Preparar o ambiente de desenvolvimento**
+* **Primeiro código do jogo**
+
 
 # Parte 2
-Brevemente será colocada aqui informação.
+Brevemente ...
 
 # Parte 3
-Brevemente será colocada aqui informação.
+Brevemente ...
 
 # Parte 4
-Brevemente será colocada aqui informação.
+Brevemente ...
 
 # Parte 5
-Brevemente será colocada aqui informação.
+Brevemente ...
