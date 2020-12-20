@@ -25,7 +25,7 @@ Documentação de apoio: https://550nmr.com/2020/12/criar-um-jogo-2d-com-phaser-
 * **Primeiro código do jogo**
 
 
-# Parte 2
+# Parte 2 - Cenário do jogo
 
 Documentação de apoio: https://550nmr.com/2020/12/criar-um-jogo-2d-com-phaser-parte-2-cenario-do-jogo
 * **As imagens do cenário do jogo**
