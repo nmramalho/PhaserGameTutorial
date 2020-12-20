@@ -15,6 +15,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
+    // carregamento em memória das imagens do cenário
     this.load.image('ground', 'assets/ground.png');
     this.load.image('clouds', 'assets/clouds.png');
     this.load.image('mountains', 'assets/mountains.png');
@@ -23,6 +24,7 @@ function preload ()
 
 function create ()
 {
+    // criação e posicionamento das imagens do cenário
     this.add.image(400, 300, 'sky');
     this.add.image(400, 300, 'clouds');
     this.add.image(400, 300, 'mountains');

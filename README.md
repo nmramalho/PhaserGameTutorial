@@ -26,7 +26,12 @@ Documentação de apoio: https://550nmr.com/2020/12/criar-um-jogo-2d-com-phaser-
 
 
 # Parte 2
-Brevemente ...
+
+Documentação de apoio:
+* **As imagens do cenário do jogo**
+* **Coordenadas no Phaser**
+* **Código para utilizar as imagens do cenário de jogo.**
+
 
 # Parte 3
 Brevemente ...
