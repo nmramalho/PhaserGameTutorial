@@ -35,7 +35,7 @@ Documentação de apoio: https://550nmr.com/2020/12/criar-um-jogo-2d-com-phaser-
 
 # Parte 3 - Movimento do cenário de jogo
 
-Documentação de apoio:
+Documentação de apoio:https://550nmr.com/2021/01/criar-um-jogo-2d-com-phaser-parte-3-movimento-do-cenario-de-jogo 
 * **Mover as imagens do cenário do jogo**
 
 # Parte 4
