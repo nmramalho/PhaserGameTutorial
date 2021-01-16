@@ -13,7 +13,7 @@ var config = {
 // Criar o objeto game com as propriedades do jogo
 var game = new Phaser.Game(config);
 
-var scenarySpeed = 1;   // variavel para definir a velocidade do senário
+var scenarySpeed = 1;   // variavel para definir a velocidade do cenário
 
 function preload ()
 {
