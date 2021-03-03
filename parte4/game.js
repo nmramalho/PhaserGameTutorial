@@ -22,9 +22,9 @@ function preload ()
     this.load.image('mountains', 'assets/mountains.png');
     this.load.image('sky', 'assets/sky.png');
 
-    this.load.spritesheet('spaceship', 'assets/spaceship.png', {
-        frameWidth: 96,
-        frameHeight: 48
+    this.load.spritesheet('plane', 'assets/plane.png', {
+        frameWidth: 94,
+        frameHeight: 64
     });
 }
 
@@ -38,12 +38,12 @@ function create ()
     this.ground = this.add.tileSprite(400, 300, config.width, config.height, "ground");
     
     // adicionar o sprite do jogador
-    this.ship = this.add.sprite(50, 50, 'spaceship');
+    this.ship = this.add.sprite(50, 50, 'plane');
 
     // criar a animação
     this.anims.create({
         key: 'fly',
-        frames: this.anims.generateFrameNumbers('spaceship', { start: 0, end: 2 }),
+        frames: this.anims.generateFrameNumbers('plane', { start: 0, end: 2 }),
         frameRate: 20,
         repeat: -1
     });
